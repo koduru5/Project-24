@@ -15,8 +15,10 @@ function setup() {
 
 	//Create the Bodies Here.
 	box1= new Dustbin(440, 650, 200, 20);
-	box2= new Dustbin(370,610,20,100);
-	box3= new Dustbin(550,610,20,100);
+	box2= new Dustbin(370,610,20,50);
+	box3= new Dustbin(550,610,20,50);
+
+	paperObject= new Paper(100,610,70);
 
 
 	Engine.run(engine);
